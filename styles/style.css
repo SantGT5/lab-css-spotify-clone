@@ -6,3 +6,130 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    background-color:white;
+    border: 1px solid ;
+    
+}
+
+.flex-container a {
+text-align: center;
+color:black;
+width: 150x;
+margin: 10px;
+margin-top: 1%;
+
+}
+
+.spotify-logo img{
+  height: auto;
+  width: 11%;
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+
+
+.hero-img {
+  background-image: url(../images/landing.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+}
+
+.hero-text h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+.on-spotify {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    
+}
+
+
+.img-container img {
+    height: auto;
+    width: 10%;
+    display: inline;
+    margin: 2%;
+    padding: 5%;
+    background-color: white;
+
+
+}
+
+.end {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #1bb16a;
+    align-items:center;
+    
+}
+
+.end-1 h1{
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+
+}
+.end-1 h2{
+    margin-left: 5%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.end-1 p{
+    margin-left: 5%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+}
+
+.end-2 img {
+    height: auto;
+    width: 30%;
+}
+
+.end-3 img {
+    height: auto;
+    width: 70%;
+}
